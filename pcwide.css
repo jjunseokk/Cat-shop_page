@@ -1,0 +1,110 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{
+    font-family: 'DynaPuff', cursive;
+}
+.border-style{
+    border: 1px solid red;
+}
+/* menuBar */
+.bg-lightblue{
+    background-color: rgb(211, 230, 237);
+}
+.btn:hover{
+    color: rgb(142, 125, 213);
+}
+/* list */
+.f-center{ 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.col-md-12 h2, .card-body h4, .row h2{
+    font-weight: bold;
+}
+.button-style{
+    width: 10em;
+    height: 3em;
+    background-color: rgb(211, 230, 237);
+    color: white;
+    border: none;
+
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.button-style:hover{
+    transform: scale(120%);
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 고양이 사진들 */
+.col-md-6 img{
+    width: 100%;
+}
+
+/* footer */
+footer{
+    background-color: rgb(211, 230, 237);
+}
+.infor p{
+    color: white;
+    font-weight: bold;
+}
+.font-color{
+    color: white;
+    font-weight:900;
+    text-decoration: none;
+    margin: 0 5px;
+}
+.first-box:hover{
+    color: rgb(142, 125, 213);
+}
+.icon-box{
+    width: 54px;
+    height: 54px;
+    background-color: rgb(195, 225, 236);
+    border-radius: 50%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-box i{
+    color: white;
+}
+.flex-style{
+    display: flex;
+    justify-content: space-between;
+}
+.second-box{
+    display: flex;
+    justify-content: flex-end
+}
+.icon-box i:hover{
+    color: rgb(142, 125, 213);
+}
+
+.infor img{
+    width: 0.5em;
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .infor p{
+        color: white;
+        font-weight: bold;
+        font-size: 0.7rem;
+    }
+    .first-box{
+        margin-bottom: 10px;
+    }
+    .second-box{
+        display: flex;
+        justify-content: center;
+
+    }
+}
